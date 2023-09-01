@@ -1,0 +1,64 @@
+body{
+    background: #050A30;
+    color: azure;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    width: auto;
+}
+.hello_message{
+    text-align: center;
+    color: aquamarine;
+    width: auto;
+}
+.i_am_message{
+    text-align: center;
+    color: aqua;
+    width: auto;
+}
+.myphoto{
+    display: block;
+    border: 8px aqua solid;
+    width: 12%;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: auto;
+    border-radius: 18px;
+    
+}
+.download_cv{
+    margin: auto;
+    display: block;
+    text-align: center;
+    color: black;
+    width: 100px;
+    /* align-items: center; */
+    /* float: inline-start; */
+    padding: 10px;
+    text-decoration: none;
+    background: aqua;
+    border-radius: 5px;
+}
+.myself{
+    color: aqua;
+    text-align: center;
+}
+.Education{
+    list-style-type: none;
+}
+.my_details{
+    text-align: center;
+}
+.skill_table{
+    margin: auto;
+    border: 2px aquamarine solid;
+}
+.my_contact{
+    margin: auto;
+}
+td{
+    text-align: left;
+    padding: 12px;
+}
