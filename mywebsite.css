@@ -1,0 +1,99 @@
+body{
+    background: url(5652012.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: azure;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    font-size: 55px;
+    text-align: center;
+    width: auto;
+}
+@keyframes fade_in {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+    
+}
+.hello_message{
+    text-align: center;
+    color: aquamarine;
+    width: auto;
+    animation: fade_in 2s;
+}
+.message{
+    text-align: center;
+    color: aquamarine;
+    width: auto;
+}
+.i_am_message{
+    text-align: center;
+    color: aqua;
+    width: auto;
+    animation: fade_in 2s;
+}
+.my_name{
+    animation: fade_in 3s;
+}
+.myphoto{
+    display: block;
+    border: 8px aqua solid;
+    width: 12%;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: auto;
+    border-radius: 18px;
+    animation: fade_in 3s;
+    
+}
+.designation{
+    text-align: center;
+    color: aquamarine;
+    animation: fade_in 3s;
+}
+.download_cv{
+    margin: auto;
+    display: block;
+    text-align: center;
+    color: black;
+    width: 110px;
+    /* align-items: center; */
+    /* float: inline-start; */
+    padding: 10px;
+    text-decoration: none;
+    background: aqua;
+    border-radius: 6px;
+    animation: fade_in 3s;
+}
+.myself{
+    color: aqua;
+    text-align: center;
+    animation: fade_in 3s;
+}
+.Education{
+    list-style-type: none;
+}
+.my_details{
+    text-align: center;
+    animation: fade_in 3s;
+}
+.skill_table{
+    margin: auto;
+    border: 2px aquamarine solid;
+}
+.my_contact{
+    margin: auto;
+}
+td{
+    text-align: left;
+    padding: 12px;
+}
+.copyright{
+    text-align: center;
+    color: aqua;
+    animation: fade_in 3s;
+}
